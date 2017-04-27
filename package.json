@@ -1,0 +1,21 @@
+{
+    "author": "merlin.becker@googlemail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pebble_todo",
+    "pebble": {
+        "displayName": "Pebble_Todo",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "uuid": "2f5b4ff7-d298-4026-a0fe-30508bc44758",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}

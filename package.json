@@ -1,17 +1,31 @@
 {
-    "author": "merlin.becker@googlemail.com",
-    "dependencies": {},
+    "author": "merlinbecker",
+    "dependencies": {
+        "pebble-clay": "1.0.0"
+    },
     "keywords": [],
     "name": "pebble_todo",
     "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
         "displayName": "Pebble_Todo",
         "enableMultiJS": true,
-        "messageKeys": [],
+        "messageKeys": [
+            "apiUrl",
+            "username",
+            "password"
+        ],
         "projectType": "native",
         "resources": {
             "media": []
         },
         "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
         "uuid": "2f5b4ff7-d298-4026-a0fe-30508bc44758",
         "watchapp": {
             "watchface": false

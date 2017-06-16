@@ -1,3 +1,8 @@
+//@author merlinbecker
+//@created 2017/04/27
+//configured following the instructions under:
+//https://github.com/pebble/clay
+
 module.exports = [
   { 
     "type": "heading", 

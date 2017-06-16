@@ -1,30 +1,53 @@
 {
     "author": "merlinbecker",
     "dependencies": {
-        "pebble-clay": "1.0.0"
+        "pebble-clay": "1.0.4"
     },
     "keywords": [],
-    "name": "pebble_todo",
+    "name": "merlist",
     "pebble": {
         "capabilities": [
             "configurable"
         ],
-        "displayName": "Pebble_Todo",
+        "displayName": "Merlist",
         "enableMultiJS": true,
         "messageKeys": [
             "apiUrl",
             "username",
-            "password"
+            "password",
+            "MESSAGECODE",
+            "PROJECTNAME",
+            "STATUS",
+            "DESCRIPTION",
+            "TASKID",
+            "SCOPE",
+            "COUNT",
+            "ITEMNUM"
         ],
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "file": "images/task_todo_16.png",
+                    "name": "TASK_TODO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/task_done_16.png",
+                    "name": "TASK_DONE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
         },
         "sdkVersion": "3",
         "targetPlatforms": [
             "aplite",
             "basalt",
-            "chalk"
+            "chalk",
+            "diorite",
+            "emery"
         ],
         "uuid": "2f5b4ff7-d298-4026-a0fe-30508bc44758",
         "watchapp": {
